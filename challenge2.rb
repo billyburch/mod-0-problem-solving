@@ -13,4 +13,6 @@
 
 hobbies = ["guitar playing", "skiing", "meditation", "yardwork", "movies"]
 
-p hobbies
+hobbies.each do |hobby|
+    p hobby if hobby.end_with?("ing")
+end
