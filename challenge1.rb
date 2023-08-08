@@ -6,7 +6,7 @@
 
 # Pseudocode: 
 # - Assign an array of strings to a variable
-# - Use iteration/.each and comparison operators to identify and print those strings from the array with exactly 4 characters
+# - Use iteration/.each, if statement, and comparison operators to identify and print those strings from the array with exactly 4 characters
 
 #Final solution
 
