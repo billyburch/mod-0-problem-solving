@@ -9,15 +9,17 @@
 # - use the sort! method to alphabetize elements
 # - write an each_index method that will interpolate each string into the same sentence when that method is called
 
-#Final solution
+#Final solution - I decided to make sure I could run the program successfully with multiple arrays and so you'll see those below. I believe I hit the objective pretty solidly. 
 
-destinations = ["Portland", "Oaxaca", "Astoria", "Ischia", "Ocracoke", "Funkytown"]
+cities = ["Portland", "Oaxaca", "Astoria", "Ischia", "Ocracoke", "Funkytown"]
 
-def sort_destinations(destinations)
-    destinations.sort!
-    destinations.each do |destination| 
-        puts "Won't you take me to #{destination}?! "
+countries = ["Thailand", "Mexico", "Australia"]
+
+def sort_destinations(places)
+    places.sort!
+    places.each do |place| 
+        puts "Won't you take me to #{place}?! "
     end
 end
 
-sort_destinations(destinations)
+sort_destinations(cities)
