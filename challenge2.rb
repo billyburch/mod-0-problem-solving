@@ -7,7 +7,7 @@
 # Pseudocode: 
 # - Assign an array of strings to a variable using the assignment operator and square brackets.
 # - Write an .each method, name each element in the array
-# - Use an if statement with the include and suffix methods to print only those array elements ending in "ing" 
+# - Use an if statement with the end_with? method to print only those array elements ending in "ing" 
 
 #Final solution
 
