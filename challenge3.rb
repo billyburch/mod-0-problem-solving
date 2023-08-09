@@ -6,8 +6,18 @@
 
 # Pseudocode: 
 # - Assign an array of strings to a variable using the assignment operator and square brackets.
-# - use the sort method to alphabetize elements
+# - use the sort! method to alphabetize elements
 # - write an each_index method that will interpolate each string into the same sentence when that method is called
 
 #Final solution
 
+destinations = ["Portland", "Oaxaca", "Astoria", "Ischia", "Ocracoke", "Funkytown"]
+
+def sort_destinations(destinations)
+    destinations.sort!
+    destinations.each do |destination| 
+        puts "Won't you take me to #{destination}?! "
+    end
+end
+
+sort_destinations(destinations)
